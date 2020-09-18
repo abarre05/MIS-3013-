@@ -25,6 +25,8 @@ namespace FizzBuzz
             {
                 Console.WriteLine(number);
             }
+            
+
         }
     }
 }
