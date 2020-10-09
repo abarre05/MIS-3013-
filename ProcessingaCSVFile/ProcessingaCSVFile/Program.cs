@@ -1,12 +1,13 @@
 ﻿using System;
+using System.IO;
 
 namespace ProcessingaCSVFile
 {
     class Program
     {
         static void Main(string[] args)
-        { 
-        string filePath = @"sales_data_sample.csv";
+        {
+            string filePath = @"C:\Users\abarr\Downloads\sales_data_sample.csv";
         string[] lines = File.ReadAllLines(filePath);
 
         //ORDERNUMBER,QUANTITYORDERED,PRICEEACH,ORDERLINENUMBER,SALES,ORDERDATE,STATUS,QTR_ID,MONTH_ID,YEAR_ID,PRODUCTLINE,MSRP,PRODUCTCODE,CUSTOMERNAME,PHONE,ADDRESSLINE1,ADDRESSLINE2,CITY,STATE,POSTALCODE,COUNTRY,TERRITORY,CONTACTLASTNAME,CONTACTFIRSTNAME,DEALSIZE
